@@ -8,6 +8,7 @@
     "start": "node dist-server/server.mjs"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.2.5",
     "elm-codegen": "^0.3.0",
     "elm-optimize-level-2": "^0.3.5",
     "elm-pages": "^3.0.0-beta.40",
