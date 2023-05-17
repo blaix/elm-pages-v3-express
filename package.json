@@ -5,7 +5,7 @@
     "postinstall": "elm-tooling install",
     "dev": "elm-pages dev",
     "build": "elm-pages build",
-    "start": "node server.mjs"
+    "start": "node dist-server/server.mjs"
   },
   "devDependencies": {
     "elm-codegen": "^0.3.0",

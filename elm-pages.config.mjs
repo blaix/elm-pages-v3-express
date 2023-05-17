@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-import adapter from "./elm-pages-adapter.mjs";
+import adapter from "./adapters/express/adapter.mjs";
 
 export default {
   vite: defineConfig({}),

@@ -1,5 +1,5 @@
 import express from "express";
-import * as elmPages from "./dist-server/elm-pages.mjs";
+import * as elmPages from "./elm-pages.mjs";
 
 const app = express();
 const port = 3000;

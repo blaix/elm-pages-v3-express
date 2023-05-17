@@ -11,6 +11,7 @@ export default async function run({
   console.log("Running elm pages express adapter");
   ensureDirSync("dist-server");
   fs.copyFileSync(renderFunctionFilePath, "./dist-server/elm-pages.mjs");
+  fs.copyFileSync("./adapters/express/server.mjs", "./dist-server/server.mjs");
 }
 
 function ensureDirSync(dirpath) {
