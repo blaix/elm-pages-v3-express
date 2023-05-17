@@ -6,6 +6,8 @@ You can see it running at <https://elm-pages-v3-express.fly.dev/>
 
 Source code is available at <https://github.com/blaix/elm-pages-v3-express>
 
+See discussion on elm-pages-v3 adapters at <https://github.com/dillonkearns/elm-pages/discussions/378>
+
 ## The important parts
 
 `adapters/express/adapter.mjs` runs at build time and puts the elm-pages renderer in `dist-server/` where the server will import it.
