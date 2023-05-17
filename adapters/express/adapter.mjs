@@ -12,6 +12,10 @@ export default async function run({
   ensureDirSync("dist-server");
   fs.copyFileSync(renderFunctionFilePath, "./dist-server/elm-pages.mjs");
   fs.copyFileSync("./adapters/express/server.mjs", "./dist-server/server.mjs");
+  fs.copyFileSync(
+    "./adapters/express/middleware.mjs",
+    "./dist-server/middleware.mjs"
+  );
 }
 
 function ensureDirSync(dirpath) {
