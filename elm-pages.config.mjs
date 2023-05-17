@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-import adapter from "elm-pages/adapter/netlify.js";
+import adapter from "./elm-pages-adapter.mjs";
 
 export default {
   vite: defineConfig({}),
