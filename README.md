@@ -1,3 +1,7 @@
+# THIS IS AN OLD VERSION
+
+Use https://github.com/blaix/elm-pages-starter-express instead.
+
 # README
 
 This is an example of using [elm-pages 3.0](https://github.com/dillonkearns/elm-pages-v3-beta) with [express.js](https://expressjs.com/).
